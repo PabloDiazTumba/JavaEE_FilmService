@@ -30,7 +30,7 @@ public class FilmController {
     // Hämta alla filmer
     @GetMapping("/all")
     public ResponseEntity<List<Map<String, Object>>> getAllFilms() {
-        List<Map<String, Object>> allFilms = tmdbService.getAllMovies(); // Se till att den här metoden finns
+        List<Map<String, Object>> allFilms = tmdbService.getAllMovies();
         return ResponseEntity.ok(allFilms);
     }
 

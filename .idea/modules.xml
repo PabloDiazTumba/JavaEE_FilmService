@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaEE_FilmService.iml" filepath="$PROJECT_DIR$/.idea/JavaEE_FilmService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/filmservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/filmservice.main.iml" />
     </modules>
   </component>
 </project>
