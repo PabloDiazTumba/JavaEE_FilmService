@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Please sign in</title>
+    <link href="/default-ui.css" rel="stylesheet" />
+</head>
+<body>
+<div class="content">
+    <form class="login-form" method="post" action="/login">
+        <h2>Please sign in</h2>
+
+        <p>
+            <label for="username" class="screenreader">Username</label>
+            <input type="text" id="username" name="username" placeholder="Username" required autofocus>
+        </p>
+        <p>
+            <label for="password" class="screenreader">STIICK</label>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+        </p>
+
+        <input name="_csrf" type="hidden" value="{{csrfToken}}" />
+        <button type="submit" class="primary">STIIICK</button>
+        <a href="/register">
+            <button type="button" style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px;">
+                Register here
+            </button>
+        </a>
+    </form>
+
+</div>
+</body>
+</html>
